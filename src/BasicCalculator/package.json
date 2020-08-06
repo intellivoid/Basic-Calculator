@@ -1,0 +1,27 @@
+{
+    "package": {
+        "package_name": "net.intellivoid.bcmath",
+        "name": "Basic Calculator Math",
+        "version": "1.0.0.0",
+        "author": "Zi Xing Narrakas",
+        "organization": "Intellivoid",
+        "description": "Provides functions to the extension 'bcmath'",
+        "url": "https://github.com/Intellivoid/Basic-Calculator",
+        "dependencies": [],
+        "configuration": {
+            "autoload_method": "indexed",
+            "main": null,
+            "post_installation": [],
+            "pre_installation": []
+        }
+    },
+    "components": [
+        {
+            "required": true,
+            "file": "BC.php"
+        }
+    ],
+    "files": [
+        "basic_calculator.json"
+    ]
+}
